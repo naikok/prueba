@@ -1,0 +1,22 @@
+[
+  {
+    "code": "ZA",
+    "price": "2.00",
+    "offer": { "when": "4", "percentageoff" : "12.5"}
+  },
+  {
+    "code": "YB",
+    "price": "12.00",
+    "offer": null
+  },
+  {
+    "code": "FC",
+    "price": "1.25",
+    "offer": { "when": "6", "percentageoff" : "20"}
+  },
+  {
+    "code": "GD",
+    "price": "0.15",
+    "offer": null
+  }
+]

@@ -1,0 +1,7 @@
+/vendor
+/vendor/autolofile.php
+/bin
+/composer
+vendor
+.composer.lock
+/composer.lock
