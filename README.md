@@ -1,5 +1,7 @@
 # prueba
 
+In order to execute the project, clone the repository and after that make a composer install in the main project's folder in order to install the required dependencies.
+
 In order to run tests coverage:
 
 1) Go to root project folder and run all tests, in this case we have just tested the terminal which is the main command line
