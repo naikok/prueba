@@ -9,7 +9,6 @@ class CartServiceTestTest extends TestCase
 {
     protected $dataManagerMock = null;
 
-
     private function getMockDataManager()
     {
         $expected = [];

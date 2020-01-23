@@ -1,15 +1,13 @@
 <?php
 namespace App\Controllers;
 
-/*
- * This can be improved by using an http code interface for making the response better
- *
- */
+use App\BusinessService\Terminal;
+
 class CartController
 {
     private $terminal;
 
-    public function __construct($terminal)
+    public function __construct(Terminal $terminal)
     {
         $this->terminal = $terminal;
     }
