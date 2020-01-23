@@ -4,7 +4,6 @@ use App\Entity\Product;
 
 interface ICartService
 {
-
     public function resetCart() : void;
 
     public function addItem(string $code) : array; // return array of products
