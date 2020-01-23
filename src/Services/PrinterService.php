@@ -17,6 +17,6 @@ class PrinterService
        $total = (string) $totalPrice;
        $sequence = implode(', ', $productsCodes);
 
-       return  "Total Price is: " . $totalPrice." for sequence: ".$sequence."<br/>";
+       return  "Total Price is: " . $totalPrice." for sequence: ".$sequence;
     }
 }

@@ -28,7 +28,7 @@ class Terminal
     }
 
     /**
-     * Function for adding ad new item or product into the cart
+     * Function for adding a new item into the cart
      * @param
      * @param string $code
      * @return Product[]
