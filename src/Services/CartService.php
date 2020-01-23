@@ -35,7 +35,7 @@ class CartService implements ICartService
      *
      */
 
-    private function getPriceFromProductCode(string $code) : float
+    protected function getPriceFromProductCode(string $code) : float
     {
         $price = 0.00;
 
@@ -50,8 +50,7 @@ class CartService implements ICartService
 
         return $price;
     }
-
-
+    
     /**
      * Function that search into the datasource if exists any discount associated to the product code
      * @param string $code, for example ZA
