@@ -7,7 +7,6 @@ use App\Services\ICartService;
 
 class CartService implements ICartService
 {
-
     protected $products = null;
     protected $dataManager = null;
     protected $productList = [];
@@ -50,7 +49,6 @@ class CartService implements ICartService
 
         return $price;
     }
-
 
     /**
      * Function that search into the datasource if exists any discount associated to the product code
@@ -234,8 +232,7 @@ class CartService implements ICartService
      * @return Product[]
      *
      */
-
-
+    
     public function getProductsOnCart() : array
     {
        return $this->products;
@@ -243,11 +240,10 @@ class CartService implements ICartService
 
     /**
      * Function that returns the price from the whole cart
-     *
      * @return float
      *
      */
-
+    
     public function getCartPrice() : float
     {
         $productLines = [];
