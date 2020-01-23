@@ -96,9 +96,20 @@ class CartService implements ICartService
             $whenQuantity = (int) $discount->when;
             $offPercentage = (float) $discount->percentageoff;
 
-            if (($itemsForProduct == $whenQuantity)) {
+            $resto = (int) ($itemsForProduct % $whenQuantity);
+
+            if ($resto == 0) {
                 $priceOff = ($offPercentage / 100) * $price;
                 $price = (float) ($price - $priceOff);
+            }
+
+            if ($resto > 0) {
+                $priceBase = (float) $this->getPriceFromProductCode($product->getCode());
+                $priceOff = ($offPercentage / 100) * $priceBase;
+                $numberProductsWithDisccount = (float) ($itemsForProduct - $resto);
+                $priceDisccount = (float) ($priceBase - $priceOff) * $numberProductsWithDisccount;
+                $priceNormal = (float) ($priceBase * $resto);
+                $price = (float) ($priceDisccount + $priceNormal);
             }
         }
 

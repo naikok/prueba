@@ -17,8 +17,11 @@ $productCodes = ["ZA", "YB", "FC", "GD", "ZA", "YB", "ZA", "ZA"];
 echo "Case 1 :".$terminal->printOutput($productCodes);
 
 $cartService->resetCart();
+$productCodes = ["FC","FC","FC","FC","FC","FC","FC"];
 
+echo "Case 2 :".$terminal->printOutput($productCodes);
 
+$cartService->resetCart();
 $productCodes = ["ZA","YB","FC","GD"];
 
 echo "Case 3 :".$terminal->printOutput($productCodes);
