@@ -17,4 +17,6 @@ Note: We should have all tests created per each class in order to have full cove
 
   In order to have more flexibility we have included here an interface and we can use in future a FactoryManagerDataSource as     long as the class the new class created includes the interfae IDataManager
 
-4) In order to check the api go to the src folder included on the project and index will be executed as main command line.
+3) In order to check the api go to the src folder included on the project and index will be executed as main command line.
+
+  For example by going to the url accesible by GET : http://127.0.0.1/prueba/src
