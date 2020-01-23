@@ -200,7 +200,7 @@ class CartService implements ICartService
     }
 
     /**
-     * Function used to remove an item from the cart, not implemented yet
+     * Function used to remove an item from the cart, not implemented yet as is not required for the problem so far
      *
      * @param string $code
      * @return Product[]
