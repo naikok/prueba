@@ -14,7 +14,7 @@ class CartController
         $this->terminal = $terminal;
     }
 
-    public function index($productCodes)
+    public function index(array $productCodes) : string
     {
         header('Content-Type: application/json');
 
