@@ -1,6 +1,5 @@
 <?php
 namespace App\Controllers;
-use \HttpMessage;
 
 /*
  * This can be improved by using an http code interface for making the response better
