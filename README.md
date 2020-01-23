@@ -12,7 +12,7 @@ Note: We should have all tests created per each class in order to have full cove
 
 2) Notes:
 
-  PersistenService package includes a DataManager class for reading the datasource, I have choosen json format by default,
+  PersistenceService package includes a DataManager class for reading the datasource, I have choosen json format by default,
   however tomorrow we could be using a different datasource such as csv file, database ...
 
   In order to have more flexibility we have included here an interface and we can use in future a FactoryManagerDataSource as long as the the new class created includes the interface IDataManager
