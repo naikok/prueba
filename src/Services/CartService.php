@@ -50,7 +50,7 @@ class CartService implements ICartService
 
         return $price;
     }
-    
+
     /**
      * Function that search into the datasource if exists any discount associated to the product code
      * @param string $code, for example ZA
