@@ -142,7 +142,6 @@ class TerminalTest extends TestCase
             ->willReturn($products);
 
         $expected = "Total Price is: 14.00 for sequence: ZA, YB";
-        $totalPrice = 14.00;
 
         $this->printerServiceMock
             ->expects($this->exactly(1))

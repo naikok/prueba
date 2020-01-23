@@ -47,9 +47,7 @@ class CartServiceTestTest extends TestCase
     //TESTING PRIVATE METHOD FROM BASE CLASS, not use of reflection
     public function testGetPriceFromProductCodeReturnsOk()
     {
-
         $cartServiceTest = new CartServiceTest($this->getMockDataManager());
-
         $cartServiceTest->setTotalPrice(0.00);
         $data = [];
         $cartServiceTest->setProducts($data);
